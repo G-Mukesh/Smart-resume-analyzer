@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(
     page_title="Smart Resume Analyzer",
-    page_icon="D:/portfolio - projects/Resume Analyzer/Logo/SRA_Logo.ico.jpeg",
+    page_icon="Logo/SRA_Logo.jpeg",
     layout="centered"
 )
 import nltk
@@ -115,7 +115,7 @@ st.sidebar.markdown("[GitHub](https://github.com/spidy20)")
 st.sidebar.markdown("[Email](mukeshgopinath.smile@gmail.com")
 
 # --- Image ---
-img = Image.open(r"D:\portfolio - projects\Resume Analyzer\Logo\SRA_Logo.jpg.jpeg")
+img = Image.open("Logo/SRC_Logo.jpeg")
 img = img.resize((250, 250))
 st.image(img, use_container_width=False)
 
